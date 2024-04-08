@@ -2,7 +2,7 @@
   "name": "express-mysql",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "ilham wahyuni",
+  "author": "ilham wahyuni / clone",
   "license": "MIT",
   "scripts": {
     "start": "nodemon src/index.js"
