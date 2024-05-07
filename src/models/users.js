@@ -15,7 +15,7 @@ const createNewUser = (body) => {
 
 const updateUser = (body, idUser) => {
     const SQLQuery = `  UPDATE users 
-                        SET first_name='${body.first_name}',last_name='${body.last_name}',kelas='${body.kelas}',alamat='${body.alamat}',role='${body.role}' 
+                        SET kelas='${body.kelas}',alamat='${body.alamat}' 
                         WHERE id=${idUser}`;
 
     return dbPool.execute(SQLQuery);
